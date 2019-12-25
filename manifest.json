@@ -3,6 +3,7 @@
   "name": "My first Vanilla App for KaiOS",
   "description": "Simple example of a to-do list",
   "type": "web",
+  "cursor": "false",
   "launch_path": "/index.html",
   "icons": {
     "56": "/src/icon_test.png"
@@ -18,13 +19,5 @@
       "description": "Simple example of a to-do list"
     }
   },
-  "default_locale": "en-US",
-  "categories":["health"],
-  "type": "privileged", // or "certified"
-  "permissions": {
-    "spatialnavigation-app-manage": {
-		"navigator.spatialNavigationEnabled": false
-		}
-  }
+  "default_locale": "en-US"
 }
-
